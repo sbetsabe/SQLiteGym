@@ -116,6 +116,8 @@ public class Historico extends AppCompatActivity {
 
             db.insert("Historico", null, registronuevo);
             Toast.makeText(this, "Datos Almacenados", Toast.LENGTH_SHORT).show();
+        } else{
+
         }
     }
 }
