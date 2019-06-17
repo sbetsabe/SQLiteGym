@@ -1,18 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout android:layout_width="368dp"
+    android:layout_height="495dp"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/txtMenu"
+        android:layout_width="154dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="437dp"
+        android:text="Bienvenido"
+        android:textAlignment="center"
+        android:textColor="#009688" />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtMenu2"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="374dp"
+        android:text="Menu Control de Gimnasio"
+        android:textAlignment="center"
+        android:textColor="#009688" />
+
+    <Button
+        android:id="@+id/btnVerAlumno"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="232dp"
+        android:background="@color/colorPrimary"
+        android:text="Lista de Alumnos"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnAlumno"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="117dp"
+        android:background="@color/colorPrimary"
+        android:text="Registro de Alumnos"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnVerHistorico"
+        android:layout_width="121dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="235dp"
+        android:background="@color/colorPrimary"
+        android:text="Lista de Historicos"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnHistorico"
+        android:layout_width="121dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="117dp"
+        android:background="@color/colorPrimary"
+        android:text="Registro de Historicos"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

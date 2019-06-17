@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="368dp"
+    android:layout_height="495dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtMenu"
+        android:layout_width="154dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="450dp"
+        android:text="Regitro de Historicos"
+        android:textAlignment="center"
+        android:textColor="#009688" />
+
+    <TextView
+        android:id="@+id/textNombreAlumno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="309dp"
+        android:text="Alumno:"
+        android:textColor="#009688" />
+
+    <TextView
+        android:id="@+id/textFecha"
+        android:layout_width="44dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="237dp"
+        android:text="Fecha:"
+        android:textColor="#009688" />
+
+    <TextView
+        android:id="@+id/textPeso"
+        android:layout_width="36dp"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="236dp"
+        android:text="Peso:"
+        android:textColor="#009688" />
+
+    <TextView
+        android:id="@+id/textGrasa"
+        android:layout_width="136dp"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="191dp"
+        android:text="Porcentaje de Grasa:"
+        android:textColor="#009688" />
+
+    <TextView
+        android:id="@+id/textMasa"
+        android:layout_width="196dp"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="152dp"
+        android:text="Porcentaje de Masa Muscular:"
+        android:textColor="#009688" />
+
+    <TextView
+        android:id="@+id/textEdadMetabolica"
+        android:layout_width="115dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="101dp"
+        android:text="Edad metabolica:"
+        android:textColor="#009688" />
+
+    <EditText
+        android:id="@+id/editPeso"
+        android:layout_width="72dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="232dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textKg"
+        android:layout_width="24dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="311dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="235dp"
+        android:text="Kg"
+        android:textColor="#009688" />
+
+    <EditText
+        android:id="@+id/editMasa"
+        android:layout_width="53dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="147dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editEdadMetabolica"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editGrasa"
+        android:layout_width="59dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="187dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editAlumno"
+        android:layout_width="219dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="302dp" />
+
+    <EditText
+        android:id="@+id/editFecha"
+        android:layout_width="115dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="230dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="115dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="421dp"
+        android:background="@color/colorPrimary"
+        android:onClick="GuardarHistorico"
+        android:text="Guardar medidas"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="105dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="366dp"
+        android:background="@color/colorPrimary"
+        android:text="Lista Historicos"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Menuprincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="42dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Menu principal" />
+
+</RelativeLayout>
